@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, StyleSheet, FlatList, Alert} from 'react-native';
+import {View, StyleSheet, FlatList, Alert, StatusBar} from 'react-native';
 import {v4 as uuid} from 'uuid';
 
 import Header from './components/Header';
@@ -14,7 +14,7 @@ const App = () => {
     },
     {
       id: uuid(),
-      text: 'Eggs',
+      text: 'Shoes',
     },
     {
       id: uuid(),
@@ -22,7 +22,7 @@ const App = () => {
     },
     {
       id: uuid(),
-      text: 'Juice',
+      text: 'Pen',
     },
   ]);
 
@@ -128,6 +128,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: StatusBar.currentHeight,
   },
 });
 

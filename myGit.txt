@@ -37,6 +37,7 @@ git log
 git log -p
 
 git remote add origin https://github.com/username/ripoName.git
+git remote rm origin
 
 git branch -M main | git branch -M master
 

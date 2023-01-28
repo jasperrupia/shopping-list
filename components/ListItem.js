@@ -53,7 +53,7 @@ const ListItem = ({
               <Icon
                 name="pencil"
                 size={20}
-                color="blue"
+                color="#ff8500"
                 onPress={() => editItem(item.id, item.text)}
               />
             )

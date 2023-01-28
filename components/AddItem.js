@@ -41,12 +41,12 @@ const styles = StyleSheet.create({
     margin: 5,
   },
   btn: {
-    backgroundColor: '#c2bad8',
+    backgroundColor: '#edb77d',
     padding: 9,
     margin: 5,
   },
   btnText: {
-    color: 'darkslateblue',
+    color: '#894700',
     fontSize: 20,
     textAlign: 'center',
   },
